@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Zyverion Gym | Blog</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+
+<header class="topbar">
+  <div class="container nav">
+    <a class="brand" href="index.html">ZYVERION<span>GYM</span></a>
+
+    <nav class="menu">
+      <a href="index.html" data-nav>Home</a>
+      <a href="about.html" data-nav>About</a>
+      <a href="courses.html" data-nav>Courses</a>
+      <a href="pricing.html" data-nav>Pricing</a>
+      <a href="gallery.html" data-nav>Gallery</a>
+      <a href="blog.html" data-nav>Blog</a>
+      <a href="contact.html" data-nav>Contact</a>
+    </nav>
+
+    <a class="btn red" href="contact.html">Contact Me</a>
+
+    <button class="burger" id="burger" aria-label="Open menu" type="button">☰</button>
+  </div>
+
+  <!-- MOBILE MENU (same links, not a second navbar) -->
+  <div class="container mobileMenu" id="mobileMenu">
+    <a href="index.html" data-nav>Home</a>
+    <a href="about.html" data-nav>About</a>
+    <a href="courses.html" data-nav>Courses</a>
+    <a href="pricing.html" data-nav>Pricing</a>
+    <a href="gallery.html" data-nav>Gallery</a>
+    <a href="blog.html" data-nav>Blog</a>
+    <a href="contact.html" data-nav>Contact</a>
+  </div>
+</header>
+
+<section class="section">
+  <div class="container">
+    <h2>Blog</h2>
+    <p>Short posts that rank on Google (later we can make real blog pages).</p>
+
+    <div class="grid3">
+      <div class="card">
+        <h3>Best beginner workout plan</h3>
+        <div class="meta">3-day full body routine</div>
+        <p>Focus on squat, press, row, hinge. Build base strength first.</p>
+      </div>
+      <div class="card">
+        <h3>Fat loss without losing muscle</h3>
+        <div class="meta">Calories + protein + training</div>
+        <p>Keep lifting heavy, eat enough protein, use small deficit.</p>
+      </div>
+      <div class="card">
+        <h3>Why most people quit</h3>
+        <div class="meta">Consistency > motivation</div>
+        <p>Simple schedule + coach feedback is what makes it stick.</p>
+      </div>
+    </div>
+
+    <div class="card" style="margin-top:18px">
+      <h3>Want a real blog system?</h3>
+      <p>We can upgrade this to a proper blog with SEO-friendly pages and categories.</p>
+      <a class="btn red" href="contact.html">Ask on WhatsApp</a>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">© <span id="year"></span> Zyverion Gym</div>
+</footer>
+
+<script src="js/main.js"></script>
+<script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+
+</body>
+</html>

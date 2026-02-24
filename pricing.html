@@ -1,0 +1,98 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>Zyverion Gym | Pricing</title>
+  <link rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+
+<header class="topbar">
+  <div class="container nav">
+    <a class="brand" href="index.html">Z<span>Y</span>VERION GYM</a>
+
+    <nav class="menu">
+      <a data-nav href="index.html">Home</a>
+      <a data-nav href="about.html">About</a>
+      <a data-nav href="courses.html">Courses</a>
+      <a data-nav href="pricing.html">Pricing</a>
+      <a data-nav href="gallery.html">Gallery</a>
+      <a data-nav href="blog.html">Blog</a>
+      <a data-nav href="contact.html">Contact</a>
+    </nav>
+
+    <div style="display:flex; gap:10px; align-items:center">
+      <a class="btn red" href="contact.html">Contact Me</a>
+      <button class="burger" id="burger" aria-label="Open menu">☰</button>
+    </div>
+  </div>
+
+  <div class="container mobileMenu" id="mobileMenu">
+    <a href="index.html">Home</a><a href="about.html">About</a><a href="courses.html">Courses</a>
+    <a href="pricing.html">Pricing</a><a href="gallery.html">Gallery</a><a href="blog.html">Blog</a><a href="contact.html">Contact</a>
+  </div>
+</header>
+
+<section class="section">
+  <div class="container">
+    <h2>Membership plans</h2>
+    <p>Simple plans. No nonsense. Upgrade anytime.</p>
+
+    <div class="pricing">
+      <div class="price">
+        <div class="badge">Starter</div>
+        <div class="amount">LKR 6,500 <small>/ month</small></div>
+        <ul class="ul">
+          <li>Gym access (standard hours)</li>
+          <li>Basic program sheet</li>
+          <li>1 form check / week</li>
+        </ul>
+        <div style="margin-top:18px">
+          <a class="btn" href="contact.html">Join Starter</a>
+        </div>
+      </div>
+
+      <div class="price best">
+        <div class="badge">Most popular</div>
+        <div class="amount">LKR 9,500 <small>/ month</small></div>
+        <ul class="ul">
+          <li>Full gym access</li>
+          <li>Group classes included</li>
+          <li>Progress tracking</li>
+          <li>WhatsApp support</li>
+        </ul>
+        <div style="margin-top:18px">
+          <a class="btn red" href="contact.html">Join Pro</a>
+        </div>
+      </div>
+
+      <div class="price">
+        <div class="badge">Elite</div>
+        <div class="amount">LKR 18,000 <small>/ month</small></div>
+        <ul class="ul">
+          <li>Everything in Pro</li>
+          <li>4 PT sessions / month</li>
+          <li>Nutrition guidance</li>
+          <li>Priority scheduling</li>
+        </ul>
+        <div style="margin-top:18px">
+          <a class="btn" href="contact.html">Join Elite</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="card" style="margin-top:18px">
+      <h3>Free trial</h3>
+      <p>New members can book a free visit + quick assessment.</p>
+      <a class="btn red" href="contact.html">Book free visit</a>
+    </div>
+  </div>
+</section>
+
+<footer class="footer"><div class="container">© <span id="year"></span> Zyverion Gym</div></footer>
+<script src="js/main.js"></script>
+<script>document.getElementById("year").textContent=new Date().getFullYear();</script>
+</body>
+</html>

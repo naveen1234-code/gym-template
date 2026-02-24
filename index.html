@@ -1,0 +1,88 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>Zyverion Gym | Home</title>
+  <link rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+
+<header class="topbar">
+  <div class="container nav">
+    <a class="brand" href="index.html">Z<span>Y</span>VERION GYM</a>
+
+    <nav class="menu">
+      <a data-nav href="index.html">Home</a>
+      <a data-nav href="about.html">About</a>
+      <a data-nav href="courses.html">Courses</a>
+      <a data-nav href="pricing.html">Pricing</a>
+      <a data-nav href="gallery.html">Gallery</a>
+      <a data-nav href="blog.html">Blog</a>
+      <a data-nav href="contact.html">Contact</a>
+    </nav>
+
+    <div style="display:flex; gap:10px; align-items:center">
+      <a class="btn red" href="contact.html">Contact Me</a>
+      <button class="burger" id="burger" aria-label="Open menu">☰</button>
+    </div>
+  </div>
+
+  <div class="container mobileMenu" id="mobileMenu">
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="courses.html">Courses</a>
+    <a href="pricing.html">Pricing</a>
+    <a href="gallery.html">Gallery</a>
+    <a href="blog.html">Blog</a>
+    <a href="contact.html">Contact</a>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="diagonal"></div>
+  <div class="container hero-inner">
+    <div class="kicker">Hi this is Zyverion</div>
+    <div class="h1">Gym Trainer</div>
+    <p>Premium coaching for strength, fat-loss and athletic conditioning. Train smart. Look sharp. Get results.</p>
+    <div class="ctaRow">
+      <a class="btn" href="courses.html">My Courses</a>
+      <a class="btn red" href="contact.html">Join Now</a>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <h2>What you get</h2>
+    <p>High conversion sections that make people message you fast.</p>
+
+    <div class="grid3">
+      <div class="card">
+        <h3>Strength</h3>
+        <div class="meta">Build power + muscle</div>
+        <p>Progressive overload plans + form correction.</p>
+      </div>
+      <div class="card">
+        <h3>Fat Loss</h3>
+        <div class="meta">Drop fat safely</div>
+        <p>Workout + nutrition structure that actually works.</p>
+      </div>
+      <div class="card">
+        <h3>Conditioning</h3>
+        <div class="meta">Athletic performance</div>
+        <p>HIIT + functional circuits for stamina.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">© <span id="year"></span> Zyverion Gym</div>
+</footer>
+
+<script src="js/main.js"></script>
+<script>document.getElementById("year").textContent=new Date().getFullYear();</script>
+</body>
+</html>

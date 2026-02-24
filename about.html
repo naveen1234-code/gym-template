@@ -1,0 +1,57 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>Zyverion Gym | About</title>
+  <link rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+<!-- same header -->
+<header class="topbar">
+  <div class="container nav">
+    <a class="brand" href="index.html">Z<span>Y</span>VERION GYM</a>
+    <nav class="menu">
+      <a data-nav href="index.html">Home</a>
+      <a data-nav href="about.html">About</a>
+      <a data-nav href="courses.html">Courses</a>
+      <a data-nav href="pricing.html">Pricing</a>
+      <a data-nav href="gallery.html">Gallery</a>
+      <a data-nav href="blog.html">Blog</a>
+      <a data-nav href="contact.html">Contact</a>
+    </nav>
+    <div style="display:flex; gap:10px; align-items:center">
+      <a class="btn red" href="contact.html">Contact Me</a>
+      <button class="burger" id="burger" aria-label="Open menu">☰</button>
+    </div>
+  </div>
+  <div class="container mobileMenu" id="mobileMenu">
+    <a href="index.html">Home</a><a href="about.html">About</a><a href="courses.html">Courses</a>
+    <a href="pricing.html">Pricing</a><a href="gallery.html">Gallery</a><a href="blog.html">Blog</a><a href="contact.html">Contact</a>
+  </div>
+</header>
+
+<section class="section">
+  <div class="container">
+    <h2>About me</h2>
+    <p>Write your real story here. Keep it short and strong.</p>
+
+    <div class="grid2">
+      <div class="card">
+        <h3>My mission</h3>
+        <p>Help busy people build a strong body and confident mindset through structured training.</p>
+      </div>
+      <div class="card">
+        <h3>Experience</h3>
+        <p>Strength training • Conditioning • Beginner coaching • Transformation planning.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="footer"><div class="container">© <span id="year"></span> Zyverion Gym</div></footer>
+<script src="js/main.js"></script>
+<script>document.getElementById("year").textContent=new Date().getFullYear();</script>
+</body>
+</html>
